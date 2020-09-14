@@ -21,6 +21,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.select do |element|
     if element == valid_calls.each do
       return element
+    end
   end
   end
 end
