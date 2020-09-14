@@ -21,11 +21,14 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |element|
     counter = 0
     while counter < valid_calls.length do
-      
-    element == valid_calls[counter]
-    counter += 1
+      if element == valid_calls[counter]
+        return element
+      end
+    
   end
+  counter += 1
   end
+  
 end
 
 # counter = 0
