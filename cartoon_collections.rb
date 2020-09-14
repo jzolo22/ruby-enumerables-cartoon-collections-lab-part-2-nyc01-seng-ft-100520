@@ -18,13 +18,17 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  counter = 0
+  planeteer_calls.find do |element|
+    
+  end
+end
+
+# counter = 0
   
-    planeteer_calls.select do |word|
-      while counter < valid_calls.length do
-      word == valid_calls[counter]
-      counter += 1
-    end
-end
-end
+#     planeteer_calls.select do |word|
+#       while counter < valid_calls.length do
+#       word == valid_calls[counter]
+#       counter += 1
+#     end
+# end
 
